@@ -3,41 +3,628 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<!-- <base href="/"> -->
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
 
-	<title>Simple Starter</title>
-	<meta name="description" content="Simple Starter Description">
+    <title>Pondok keladi</title>
+    <meta name="description" content="Pondok Keladi Guest House">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/image.jpg">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/image.jpg">
 
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
-
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="libs/lightGallery-master/dist/css/lightgallery.css">
+    <link rel="stylesheet" href="libs/micromodal/micromodal.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 
 </head>
 
 <body>
 
-	<div class="container"><br>
-		<div class="row">
-			<div class="col-lg-8">
-				<img class="image" src="images/preview.png" alt="Image Example">
-			</div>
-			<div class="col text">
-				<span class="accent">Simple Starter</span> за словесными горами в стране гласных и согласных живёт, рыбные тексты. Сбить знаках рукопись жизни запятых повстречался своего, осталось ведущими однажды продолжил на берегу родного выйти эта семантика инициал своих, все свой?
-			</div>
-		</div>
-	</div>
+    <header class="home-header">
 
-	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+        <div class="home-header__slider">
+            <div class="swiper-wrapper">
 
-	<script src="js/common.js"></script>
+                <div class="swiper-slide" style="background-image: url(images/other/slider/1.png);"></div>
+                <div class="swiper-slide" style="background-image: url(images/other/slider/2.png);"></div>
+                <div class="swiper-slide" style="background-image: url(images/other/slider/3.png);"></div>
+                <div class="swiper-slide" style="background-image: url(images/other/slider/4.png);"></div>
+            </div>
+        </div>
+
+        <div class="top-line top-line-home">
+
+            <div class="top-line__logo">
+                <a href="index.html" class="logo-home-header"><img src="images/other/logo_topline.svg" alt="Pondok keladi"></a>
+            </div>
+
+            <div class="top-line__menu">
+
+                <nav class="top-line__menu-container">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__list-link menu__link-ative" href="#">Home</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="rooms.html">Rooms</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="gallery.html">Photos</a></li>
+                        <li class="menu__list-item"><a class="menu__list-link" href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <div class="top-line__menu-toggle"><span class="menu-toggle-line"></span></div>
+
+            </div>
+
+
+            <div class="top-line__phone">
+                <a class="top-line__phone-number" href="tel:+60125369216"><img class="top-line__phone-icon" src="images/icons/mobile.svg" alt="Phone">+60 125 369 216</a>
+            </div>
+
+        </div>
+
+        <div class="home-header__content">
+
+            <div class="home-header__slider-nav">
+                <div class="home-header__slider-pagination rotate-block"></div>
+
+                <div class="home-header__slider-scrollbar-container rotate-block">
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+                <div class="home-header__slider-buttons">
+
+                    <div class="home-header__slider-button-prev">
+                        <div class="home-header__slider-button swiper-button-prev home-header__slider-arrow-prev"></div>
+                    </div>
+
+                    <div class="home-header__slider-button-next">
+                        <div class="home-header__slider-button swiper-button-next home-header__slider-arrow-next"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="home-header__title">
+                <div class="home-header__original-logo">
+                    <img class="pondok-logo" src="images/other/logo_original.svg" alt="Pondok keladi">
+                </div>
+                <h1 class="home-header__title-h1">
+                    Your Little Retreat
+                    <span class="home-header__title-decor">
+										in Langkawi
+									</span>
+                </h1>
+                <div class="home-header__since">since 2003</div>
+            </div>
+
+            <div class="home-header__right-side">
+
+                <div class="home-header__location-block">
+                    <div class="rotate-block home-header__location">
+                        <img src="images/icons/map_marker.svg" alt="Location" class="icon-location">
+                        <div class="home-header__my-location"><strong>Langkawi,</strong> Malaysia</div>
+                    </div>
+                </div>
+
+                <div class="home-header__social">
+                    <a href="#" class="home-header__social-icon"><img src="images/icons/instagram.svg" alt="Instagram" class="icon-instagram"></a>
+                    <a href="#" class="home-header__social-icon"><img src="images/icons/Facebook.svg" alt="facebook" class="icon-facebook"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="home-about block">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="block-about">
+
+                        <div class="block-about__title">
+                            <h2 class="block-title">About Guest House</h2>
+                        </div>
+
+                        <div class="block-about__text">
+                            <p class="text text-about">
+                                Pondok Keladi Guest House combines the charm of Traditional Malay design with modern amenities on an acre of land conveniently located in a little village of Pantai Tengah, Langkawi. Nestled at the foot of a hill and surrounded by coconut palm trees,
+                                rainforest and overlooking the paddy fields
+                            </p>
+                            <p class="text text-about">
+                                Pondok Keladi has a unit of six bedrooms complete with open-sided centrally located, covered area called the Balai complete with a kitchen.
+                            </p>
+
+                            <div class="block-about__link"><a href="#" class="link">See rooms</a></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="block-about__img">
+                        <div class="img" style="background-image: url(images/other/block-about.jpg);"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about-options">
+            <div class="container">
+                <div class="row">
+                    <div class="about__item col-md-3 col-sm-6"><img src="images/icons/wifi.svg" alt="Fast WI-FI" class="about__item-icon"><span class="about__item-text">Fast WI-FI</span></div>
+                    <div class="about__item col-md-3 col-sm-6"><img src="images/icons/bungalow.svg" alt="Big Property" class="about__item-icon"><span class="about__item-text">Big Property</span></div>
+                    <div class="about__item col-md-3 col-sm-6"><img src="images/icons/plant.svg" alt="Beautiful gardens" class="about__item-icon"><span class="about__item-text">Beautiful gardens</span></div>
+                    <div class="about__item col-md-3 col-sm-6"><img src="images/icons/Bed.svg" alt="Comfor Rooms" class="about__item-icon"><span class="about__item-text">Comfor Rooms</span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="home-video block">
+
+        <div class="block__title">
+            <h3 class="block__title-h3">video</h3>
+            <span class="block__title-description">Watch the video about Pondok Keladi guest house</span>
+            <i class="block__title-decor"></i>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/SMkE_i3yWxs?controls=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="in-pondok block">
+
+        <div class="block__title">
+            <h3 class="block__title-h3 darck-bg">In Pondok Keladi</h3>
+            <span class="block__title-description darck-bg">The rooms are tastefully decorated, with air-conditioning, hot shower, mini fridge, ceiling fan and wardrobe.</span>
+            <i class="block__title-decor darck-bg"></i>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="in-pondok__item">
+                        <img src="images/icons/bungalow_01.svg" alt="The balai" class="in-pondok__icon">
+                        <h4 class="in-pondok__title">The balai</h4>
+                        <p class="in-pondok__description">Balai open area for relaxation with a little library where guests can borrow or swap books</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="in-pondok__item">
+                        <img src="images/icons/scooter.svg" alt="Scooter" class="in-pondok__icon">
+                        <h4 class="in-pondok__title">Scooter</h4>
+                        <p class="in-pondok__description">Malay design with modern amenities on an acre of land conveniently located in a little village of Pantai Tengah</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="in-pondok__item">
+                        <img src="images/icons/park.svg" alt="Gardens" class="in-pondok__icon">
+                        <h4 class="in-pondok__title">Gardens</h4>
+                        <p class="in-pondok__description">Rainforest and overlooking the paddy fields, Pondok Keladi offers peace and tranqulity on this beautiful island.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="home-gallery block">
+
+        <div class="block__title">
+            <h3 class="block__title-h3">Gallery</h3>
+            <span class="block__title-description">Pondok Keladi has a unit of six bedrooms complete with open-sided centrally located, covered area called the Balai complete with a kitchen.</span>
+            <i class="block__title-decor"></i>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="home-gallery-wrapper col-12">
+                    <div class="home-gallery__container" id="home-gallery">
+                        <a href="images/other/home_gallery/1.jpg" class="home-gallery-item hover-eye"><img src="images/other/home_gallery/thumb-1.png" alt="Photo" class="img-fluid"></a>
+                        <a href="images/other/home_gallery/2.jpg" class="home-gallery-item hover-eye"><img src="images/other/home_gallery/thumb-2.png" alt="Photo" class="img-fluid"></a>
+                        <a href="images/other/home_gallery/3.jpg" class="home-gallery-item hover-eye"><img src="images/other/home_gallery/thumb-3.png" alt="Photo" class="img-fluid"></a>
+                        <a href="images/other/home_gallery/4.jpg" class="home-gallery-item hover-eye"><img src="images/other/home_gallery/thumb-4.png" alt="Photo" class="img-fluid"></a>
+                        <a href="images/other/home_gallery/5.jpg" class="home-gallery-item hover-eye"><img src="images/other/home_gallery/thumb-5.png" alt="Photo" class="img-fluid"></a>
+                    </div>
+                    <div class="linck-gallery"><a href="gallery.html" class="link">See more photos</a></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="reviews-block block" style="background-image: url(images/other/reviews-bg.png);">
+
+        <div class="block__title">
+            <h3 class="block__title-h3 darck-bg">Guests say</h3>
+            <span class="block__title-description darck-bg">All these reviews from booking.com and tripadvisor</span>
+            <i class="block__title-decor darck-bg"></i>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 reviews-container">
+
+                    <div class="swiper-reviews">
+
+                        <div class="swiper-wrapper swiper-reviews__slides">
+
+                            <div class="swiper-slide swiper-reviews__slide">
+                                <div class="reviews-item col-11 col-md-8">
+
+                                    <img src="images/icons/commas.svg" alt="commas" class="reviews-item__commas">
+
+                                    <div class="reviews-item__user">
+
+                                        <img src="images/other/Avatar_toni.png" alt="Tony B" class="user-avatar">
+
+                                        <div class="user-info">
+                                            <span class="user-info__name">Tony B</span>
+                                            <div class="user-info__location">
+                                                <img src="images/icons/map_marker.svg" alt="location" class="user-info__location-icon">
+                                                <span class="user-info__location-residence">Stevenage, United Kingdom</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="reviews-item__text">
+                                        <span class="reviews-item__text-block">
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach and the strip and 5 minutes by Grab.
+																		It's not a luxury resort but a good value place in a quiet location.
+																	</span>
+                                    </div>
+
+                                    <div class="reviews-item__date">
+                                        <img src="images/icons/calendar.svg" alt="calendar" class="reviews-item__date-calendar">
+                                        <span class="reviews-item__date-text">Feb 2020</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-reviews__slide">
+                                <div class="reviews-item col-11 col-md-8">
+
+                                    <img src="images/icons/commas.svg" alt="commas" class="reviews-item__commas">
+
+                                    <div class="reviews-item__user">
+
+                                        <img src="images/other/Avatar_toni.png" alt="Tony B" class="user-avatar">
+
+                                        <div class="user-info">
+                                            <span class="user-info__name">Tony B</span>
+                                            <div class="user-info__location">
+                                                <img src="images/icons/map_marker.svg" alt="location" class="user-info__location-icon">
+                                                <span class="user-info__location-residence">Stevenage, United Kingdom</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="reviews-item__text">
+                                        <span class="reviews-item__text-block">
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach and the strip and 5 minutes by Grab.
+																		It's not a luxury resort but a good value place in a quiet location.
+																	</span>
+                                    </div>
+
+                                    <div class="reviews-item__date">
+                                        <img src="images/icons/calendar.svg" alt="calendar" class="reviews-item__date-calendar">
+                                        <span class="reviews-item__date-text">Feb 2020</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-reviews__slide">
+                                <div class="reviews-item col-11 col-md-8">
+
+                                    <img src="images/icons/commas.svg" alt="commas" class="reviews-item__commas">
+
+                                    <div class="reviews-item__user">
+
+                                        <img src="images/other/Avatar_toni.png" alt="Tony B" class="user-avatar">
+
+                                        <div class="user-info">
+                                            <span class="user-info__name">Tony B</span>
+                                            <div class="user-info__location">
+                                                <img src="images/icons/map_marker.svg" alt="location" class="user-info__location-icon">
+                                                <span class="user-info__location-residence">Stevenage, United Kingdom</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="reviews-item__text">
+                                        <span class="reviews-item__text-block">
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach and the strip and 5 minutes by Grab.
+																		It's not a luxury resort but a good value place in a quiet location.
+
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach
+																	</span>
+
+                                    </div>
+
+                                    <div class="reviews-item__date">
+                                        <img src="images/icons/calendar.svg" alt="calendar" class="reviews-item__date-calendar">
+                                        <span class="reviews-item__date-text">Feb 2020</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-reviews__slide">
+                                <div class="reviews-item col-11 col-md-8">
+
+                                    <img src="images/icons/commas.svg" alt="commas" class="reviews-item__commas">
+
+                                    <div class="reviews-item__user">
+
+                                        <img src="images/other/Avatar_toni.png" alt="Tony B" class="user-avatar">
+
+                                        <div class="user-info">
+                                            <span class="user-info__name">Tony B</span>
+                                            <div class="user-info__location">
+                                                <img src="images/icons/map_marker.svg" alt="location" class="user-info__location-icon">
+                                                <span class="user-info__location-residence">Stevenage, United Kingdom</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="reviews-item__text">
+                                        <span class="reviews-item__text-block">
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach and the strip and 5 minutes by Grab.
+																		It's not a luxury resort but a good value place in a quiet location.
+
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach
+																	</span>
+
+                                    </div>
+
+                                    <div class="reviews-item__date">
+                                        <img src="images/icons/calendar.svg" alt="calendar" class="reviews-item__date-calendar">
+                                        <span class="reviews-item__date-text">Feb 2020</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-reviews__slide">
+                                <div class="reviews-item col-11 col-md-8">
+
+                                    <img src="images/icons/commas.svg" alt="commas" class="reviews-item__commas">
+
+                                    <div class="reviews-item__user">
+
+                                        <img src="images/other/Avatar_toni.png" alt="Tony B" class="user-avatar">
+
+                                        <div class="user-info">
+                                            <span class="user-info__name">Tony B</span>
+                                            <div class="user-info__location">
+                                                <img src="images/icons/map_marker.svg" alt="location" class="user-info__location-icon">
+                                                <span class="user-info__location-residence">Stevenage, United Kingdom</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="reviews-item__text">
+                                        <span class="reviews-item__text-block">
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach and the strip and 5 minutes by Grab.
+																		It's not a luxury resort but a good value place in a quiet location.
+
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach
+																	</span>
+
+                                    </div>
+
+                                    <div class="reviews-item__date">
+                                        <img src="images/icons/calendar.svg" alt="calendar" class="reviews-item__date-calendar">
+                                        <span class="reviews-item__date-text">Feb 2020</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-reviews__slide">
+                                <div class="reviews-item col-11 col-md-8">
+
+                                    <img src="images/icons/commas.svg" alt="commas" class="reviews-item__commas">
+
+                                    <div class="reviews-item__user">
+
+                                        <img src="images/other/Avatar_toni.png" alt="Tony B" class="user-avatar">
+
+                                        <div class="user-info">
+                                            <span class="user-info__name">Tony B</span>
+                                            <div class="user-info__location">
+                                                <img src="images/icons/map_marker.svg" alt="location" class="user-info__location-icon">
+                                                <span class="user-info__location-residence">Stevenage, United Kingdom</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="reviews-item__text">
+                                        <span class="reviews-item__text-block">
+																		Small cottages and cabanas set in a garden with lovely plants and flowers. Visits from hornbills, monkeys, lizards, squirrels and mongoose.
+																		It's an easy 15 minute walk from the beach and the strip and 5 minutes by Grab.
+																		It's not a luxury resort but a good value place in a quiet location.
+																	</span>
+                                    </div>
+
+                                    <div class="reviews-item__date">
+                                        <img src="images/icons/calendar.svg" alt="calendar" class="reviews-item__date-calendar">
+                                        <span class="reviews-item__date-text">Feb 2020</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-reviews__buttons">
+                            <div class="swiper-button-prev reviews-button-prev"></div>
+                            <div class="swiper-button-next reviews-button-next"></div>
+                        </div>
+
+                        <div class="swiper-reviews__pagination">
+                            <div class="reviews-pagination swiper-reviews__pagination-bullets"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer__top-block">
+
+            <a hrwf="index.html" class="footer__logo">
+                <img src="images/other/logo_footer.svg" alt="Pondok keladi" class="footer__logo-img">
+            </a>
+
+            <div class="footer__menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a href="#">Home</a></li>
+                    <li class="footer__menu-item"><a href="rooms.html">Rooms</a></li>
+                    <li class="footer__menu-item"><a href="gallery.html">Photo Gallery </a></li>
+                    <li class="footer__menu-item"><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__block-two">
+
+            <div class="footer__menu-rooms">
+                <ul class="footer__menu-rooms-list">
+                    <li class="footer__menu-rooms-item"><a href="#">Double room</a></li>
+                    <li class="footer__menu-rooms-item"><a href="#">Double room (two bed)</a></li>
+                    <li class="footer__menu-rooms-item"><a href="#">Tans Cottage</a></li>
+                    <li class="footer__menu-rooms-item"><a href="#">Little Cottage</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__address">
+                <p>
+                    Lot 1011, Kampung Padang Putih, Jalan Pantai Tengah, Mukim Kedawang, 07000 Langkawi Kedah Malaysia
+                </p>
+            </div>
+
+            <div class="footer__social">
+                <a href="#" class="footer__social-item footer__social-logo-bg"><img src="images/other/tripadvisor.svg" alt="Tripadvisor" class="footer__social-item-img"></a>
+                <a href="#" class="footer__social-item footer__social-logo-bg"><img src="images/other/booking.svg" alt="Booking" class="footer__social-item-img"></a>
+                <a href="#" class="footer__social-item"><img src="images/other/Facebook_footer.svg" alt="Facebook" class="footer__social-item-img"></a>
+                <a href="#" class="footer__social-item"><img src="images/other/instagram_footer.svg" alt="Instagram" class="footer__social-item-img"></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- modal -->
+
+    <div class="modal micromodal-slide" id="modal">
+        <div class="modal__overlay" data-custom-close>
+            <div class="modal__container">
+
+                <header class="modal__header">
+                    <div class="modal__header-room">
+                        <div class="modal__room-img"><img src="images/rooms/room_tiga/IMG_3731.jpg" alt="Photo" class="img"></div>
+                        <div class="modal__room-info">
+                            <h2 class="modal__room-title">Room tiga</h2>
+                            <div class="modal__room-options">
+                                <div class="modal__room-option"><img src="images/icons/modal_piopls.svg" alt="icon"><span>Two persons</span></div>
+                                <div class="modal__room-option"><img src="images/icons/modal_bed.svg" alt="icon"><span>Double bed</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="modal__close" title="Close" data-custom-close></button>
+                </header>
+                <form>
+                    <div class="modal__body">
+
+                        <div class="modal__descriptions">
+                            The master bedroom is with double bed, air conditioned and ceiling fan while the second room is with two single beds and ceiling fan only
+                        </div>
+
+                        <div class="modal__inputs">
+
+                            <div class="modal__check-in modal__input">
+                                <label for="checkIn">check-in</label>
+                                <input type="date" name="check-in" id="checkIn">
+                            </div>
+
+                            <div class="modal__check-out modal__input">
+                                <label for="checkOut">check-out</label>
+                                <input type="date" name="check-out" id="checkOut">
+                            </div>
+
+                            <div class="modal__input modal__input-name">
+                                <input type="text" name="name" placeholder="Full Name">
+                            </div>
+
+                            <div class="modal__input modal__input-phone">
+                                <input type="tel" name="phone" placeholder="Phone" required>
+                            </div>
+                            <input type="hidden" name="form">
+
+                        </div>
+
+                    </div>
+
+                    <footer class="modal__footer">
+                        <button class="button">Send</button>
+                    </footer>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="libs/lightGallery-master/dist/lightgallery.min.js"></script>
+    <script src="libs/lightGallery-master/dist/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="libs/micromodal/micromodal.min.js"></script>
+    <script src="js/common.js"></script>
 
 </body>
 
